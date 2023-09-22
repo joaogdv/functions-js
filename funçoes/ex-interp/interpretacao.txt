@@ -1,0 +1,14 @@
+1 
+a = 10 e 50
+b = os resultados nao serao executados.
+
+2
+a= Essa função tem a utilidade de verificar se a string inserida pelo usuário contém a palavra "cenoura", independentemente da capitalização das letras. Ela converte o texto inserido em letras minúsculas usando `.toLowerCase()` e, em seguida, verifica se a string resultante inclui a palavra "cenoura" usando `.includes()`. A função retorna `true` se a palavra "cenoura" estiver presente e `false` caso contrário.
+
+b= A saída no console para cada uma das 3 entradas do usuário será a seguinte:
+
+i. `Eu gosto de cenoura`: A saída será `true`, porque a string contém a palavra "cenoura" (com letras minúsculas).
+
+ii. `CENOURA é bom pra vista`: A saída será `true`, porque a função converte o texto para minúsculas antes de verificar, então ainda contém a palavra "cenoura".
+
+iii. `Cenouras crescem na terra`: A saída também será `true`, pelas mesmas razões acima.
